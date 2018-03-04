@@ -1,0 +1,16 @@
+
+/* Element selector */
+li {
+    border: 2px solid blue;
+}
+
+/* ID selector */
+#shopping {
+    background: orange;
+    color: purple;
+}
+
+/* Class selector */
+.completed {
+    text-decoration: line-through;
+}
