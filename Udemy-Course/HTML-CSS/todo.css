@@ -1,16 +1,17 @@
 
-/* Element selector */
+/* Type / Element selector - Least specific */
 li {
     border: 2px solid blue;
 }
 
-/* ID selector */
+/* Class selector - More specific than Element selector, but less specific than
+ID selector */
+.completed {
+    text-decoration: line-through;
+}
+
+/* ID selector - Most specific, right under inline CSS styles */
 #shopping {
     background: orange;
     color: purple;
-}
-
-/* Class selector */
-.completed {
-    text-decoration: line-through;
 }
